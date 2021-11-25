@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUp">
+
+    <EditText
+        android:id="@+id/middle_name"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:background="@color/purpleBack"
+        android:clickable="true"
+        android:hint="Отчество"
+        android:paddingTop="5sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:background="@color/purpleBack"
+        android:clickable="true"
+        android:paddingTop="5sp"
+        android:password="true"
+        android:text="dsfdsffsdsf"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <EditText
+        android:id="@+id/rePass"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:background="@color/purpleBack"
+        android:clickable="true"
+        android:paddingTop="5sp"
+        android:password="true"
+        android:text="dsfdsffsdsf"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:text="Register"
+        android:textColor="@color/red"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:background="@color/purpleBack"
+        android:clickable="true"
+        android:hint="Фамилия"
+        android:paddingTop="5sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:background="@color/purpleBack"
+        android:clickable="true"
+        android:hint="E-mail"
+        android:paddingTop="5sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:background="@color/purpleBack"
+        android:clickable="true"
+        android:hint="Имя"
+        android:paddingTop="5sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <Button
+        android:id="@+id/LogInInReg"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/black"
+        android:clickable="true"
+        android:onClick="onButtonClick"
+        android:text="Log in"
+        android:textColor="@color/white"
+        app:cornerRadius="6sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+</androidx.constraintlayout.widget.ConstraintLayout>
